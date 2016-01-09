@@ -20,7 +20,7 @@
 <script id='post-list' type='text/template'>
     <% _.each(posts, function(post) { %>
     <div class="col-md-4 portfolio-item">
-        <a href="portfolio-item.html">
+        <a href="/1/post/<%= post._id %>">
             <img class="img-responsive dp img-circle" src="http://lorempixel.com/180/180/">
         </a>
 	        <h4 class="media-heading"><%= post.title %></h4>
